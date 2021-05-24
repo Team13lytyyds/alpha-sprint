@@ -1,0 +1,24 @@
+<!--pages/logsT/logs.wxml-->
+<view class="logo">
+  <image src='/static/girl.jpg'></image>
+  <text>欢迎进入PunchZC</text>
+</view>
+
+<view class="form">
+  <view class="row-group">
+    <text>学号</text>
+    <input placeholder="请填写学号" placeholder-class='txt' maxlength='11' value="{{phone}}" bindinput="getZhangHao" />
+  </view>
+
+   <view class="row-group">
+    <text>密码</text>
+    <input placeholder="请填写密码" placeholder-class='txt' maxlength='6' value="{{code}}" bindinput="getMiMa" />
+    
+  </view>
+
+  
+  <view class="button">  
+             
+  <button class="btn" hover-class="btn-hover"  bindtap="login">登录</button>
+    </view>
+</view>

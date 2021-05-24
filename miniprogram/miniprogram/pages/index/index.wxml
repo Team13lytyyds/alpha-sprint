@@ -1,0 +1,3 @@
+<button type="primary" bindtap="setTime">开始打卡</button>
+<view wx:for="{{datainfo1}}">{{item.name}} 签到时间：{{item.startTime.Date}}</view>
+<textarea name="wenben" id="1" cols="30" rows="10"></textarea>

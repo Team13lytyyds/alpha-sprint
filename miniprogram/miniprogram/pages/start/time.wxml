@@ -1,0 +1,3 @@
+<!--pages/start/time.wxml-->
+<text>pages/start/time.wxml</text>
+<button bindtap="setTime">开始打卡</button>

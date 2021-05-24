@@ -1,0 +1,10 @@
+/* pages/index1/demo1.wxss */
+.start{
+  color: red;
+  border-color: red;
+  box-sizing: 4;
+  background-color:skyblue;
+}
+.v1{
+  /*background-color: rosybrown;*/
+}

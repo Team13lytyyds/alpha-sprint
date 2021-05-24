@@ -1,0 +1,16 @@
+<!--pages/index1/demo1.wxml-->
+<text>pages/index1/demo1.wxml</text>
+<!--
+><view class="v1">
+<input type="text" value="请输入账号" class="start" bindblur="print"/>
+<input type="text" value="请输入密码" class="start" bindconfirm="tijiao"/>
+<button bindconfirm="tijiao">完成</button>
+-->
+
+ 
+
+  <!--按钮-->
+<button bindtap="collectTime" type="primary">个人时长统计</button>
+
+
+

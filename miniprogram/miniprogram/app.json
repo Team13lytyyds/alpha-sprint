@@ -1,0 +1,52 @@
+{
+  
+  "pages": [ 
+    "pages/logsT/logs",
+    "pages/index222/demo2",
+    "pages/indexT/index",
+    "pages/mineT/mine",
+    "pages/homeT/home",
+    "pages/rank/rank",
+    "pages/start/time",
+    "pages/index1/demo1",
+    "pages/index/index"
+    
+    
+    
+   
+    
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "我的应用",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true,
+    "backgroundColor": "#ff7373"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/indexT/index",
+      "text": "首页",
+      "iconPath": "icons/home.png",
+      "selectedIconPath": "icons/home.png"
+    },
+    {
+      "pagePath": "pages/rank/rank",
+      "text": "排行榜",
+      "iconPath": "icons/rank.png",
+      "selectedIconPath": "icons/rank.png"
+    },
+    {
+      "pagePath": "pages/homeT/home",
+      "text": "我的",
+      "iconPath": "icons/mine.png",
+      "selectedIconPath": "icons/mine.png"
+    }
+    ],
+    "color": "#0094FF"
+  }
+}

@@ -1,0 +1,8 @@
+<!--pages/indexT/index.wxml-->
+<view class="button">
+        <button class="btn" hover-class="btn-hover"  bindtap="handleLoginBtn">开始打卡</button>
+    </view>
+    <view class="button">
+        <button class="btn" hover-class="btn-hover"  bindtap="handleLoginBtn">结束打卡</button>
+    </view>
+

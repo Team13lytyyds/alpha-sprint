@@ -1,0 +1,12 @@
+<!--pages/homeT/home.wxml-->
+<view class="container">
+        <view class="left"><image src="/icons/nosign.png"/></view>
+        <view class="right">
+        <text>
+             余思波
+             211805285
+        </text>
+        
+        </view>
+    </view> 
+<text>打卡次数</text>

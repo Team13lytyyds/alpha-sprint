@@ -1,0 +1,7 @@
+<!--pages/index222/demo2.wxml-->
+
+输入用户账户
+<input class="input" bindinput="getZhangHao"></input>
+输入用户密码
+<input class="input" bindinput="getMiMa"></input>
+<button bindtap="login">登录</button>
